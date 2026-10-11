@@ -1,0 +1,6 @@
+interface:
+  display_name: "手绘知识图解"
+  short_description: "把知识、流程与方法论画成结构清楚、有手绘质感的中文图解，支持三种比例"
+  default_prompt: "使用 $hand-drawn-explainer 将我的材料制作成一张手绘知识图解，选择适合内容的结构与风格，并检查文字和连接关系。"
+policy:
+  allow_implicit_invocation: true

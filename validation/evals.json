@@ -1,0 +1,13 @@
+{
+  "skill_name": "hand-drawn-explainer",
+  "version": "0.1.0",
+  "scope": "开发期验证。未执行的样图不得作为通过证据。",
+  "cases": [
+    {"id":"sample-01","mode":"image","input":"sample-01/content.md","checks":["关键文字符合底稿","五阶段顺序完整","两种决策条件清楚","未改善回到提出假设","无伪造实测结果","像素比例为3:4","实际画面与阅读效果已检查"]},
+    {"id":"parallel-review","mode":"prompt-only","request":"16:9工程手记风提示词；员工申请，主管与财务并行，全部通过才通知，任一退回补充后重走两项审核。只用提供规则。","checks":["并行不串行化","全部通过条件明确","退回重走两项审核","未添加业务规则","不生图"]},
+    {"id":"conflicting-source","mode":"analysis-only","request":"同部门同一年预算上限分别为10万元和20万元；只分析如何画成1:1明确上限图，不生成图片。","checks":["指出冲突","不擅自决定上限","给出解决冲突后的结构方向","不生图"]},
+    {"id":"engineering-16-9","mode":"image-pending","checks":["工程手记视觉效果","16:9像素比例","并行与回路正确"]},
+    {"id":"editorial-square","mode":"image-pending","checks":["编辑部图解视觉效果","1:1像素比例","对比维度一致"]},
+    {"id":"ratio-reflow","mode":"image-pending","checks":["同内容换比例后重新编排","关键关系保持","无裁切拉伸"]}
+  ]
+}

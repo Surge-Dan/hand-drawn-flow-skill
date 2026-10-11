@@ -1,0 +1,9 @@
+Edit the supplied Chinese hand-drawn infographic. Keep the mature classroom notebook style, warm white paper, black Chinese handwriting, cobalt blue flow, vermilion caveats, title, five stages, original quote, observation labels and footer. Preserve exact 3:4 aspect ratio. Make the following focused corrections, reflowing small areas as necessary for readable text:
+
+1. Fix the decision area at stage 5 by REARRANGING its two outcomes. Put the RED outcome “调整假设” on the LEFT, with its incoming branch labeled “没有改善”. Put the BLUE outcome “推进” on the RIGHT, with its incoming branch labeled “改善明确”. The decision splits into exactly these two correctly labeled branches.
+
+2. A single red return connector must visibly START at the LEFT EDGE of the red “调整假设” outcome, continue through the open LEFT margin, and END with an arrowhead at stage 3 “提出假设”. The blue “推进” outcome is terminal and must have NO outgoing line at all. Remove the existing incorrect line that visually starts beside the blue success outcome. Trace the entire red return path so its source and destination are both unambiguous. It must not intersect any stage labels or the success endpoint.
+
+3. In stage 3, add the full exact hypothesis as a readable line of black text directly ABOVE the miniature report interface: “把导出放到报表页顶部”. Keep “预期：更快找到入口” below the interface and “待验证方案” beside its top-right “导出” button. Reduce the miniature interface height slightly if necessary to make room; do not shrink the new sentence into unreadable text.
+
+Preserve all remaining required wording, including “每次找导出按钮都要翻半天。”, “用户找不到导出入口”, “场景：完成报表后”, “障碍：入口难找”, “请把这份报表导出”, “是否找到”, “耗时”, “误点”, “原话不等于解决方案”, and “教学示例｜不是实测结论”. Inside the two miniature report depictions, use only neutral placeholder lines and an empty table, no bar charts or measured results. Keep clear aligned handwriting and comfortable spacing. No extra English, no new nodes, no extra explanations. Deliver only the corrected full infographic.
