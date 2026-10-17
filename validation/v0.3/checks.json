@@ -1,0 +1,17 @@
+{
+  "version": "0.3.0-rc.1",
+  "files": 16,
+  "local_links_checked": 16,
+  "archive_bytes": 35448,
+  "archive_sha256": "7527e6806350f5060a5713d59b90aa3b0defd99ebf41d8793821852686d3e257",
+  "archive_source_hashes_match": true,
+  "editorial_dimensions": [
+    1254,
+    1254
+  ],
+  "editorial_semantic_status": "failed",
+  "narrative_status": "not_generated",
+  "quick_validate": "passed using system Python; bundled Python lacks yaml",
+  "git_diff_check": "passed",
+  "global_install": false
+}
