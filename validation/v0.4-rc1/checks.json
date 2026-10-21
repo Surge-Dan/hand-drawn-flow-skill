@@ -1,0 +1,13 @@
+{
+  "version": "0.4.0-rc.1",
+  "structure_validation": "passed",
+  "ui_validation": "passed",
+  "diff_check": "passed",
+  "internal_links_checked": 28,
+  "archive_file_count": 19,
+  "archive_bytes": 43671,
+  "archive_sha256": "4af7a8cd460e255d0971747614898d3a4ebad991958c0cae75edc4c79e1f8ba6",
+  "archive_source_hashes_match": true,
+  "image_quality_validation": "not_performed_by_this_checker",
+  "global_install": false
+}
