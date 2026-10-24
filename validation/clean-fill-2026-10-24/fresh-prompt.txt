@@ -1,0 +1,10 @@
+Create a 3:4 portrait Chinese hand-drawn scientific flowchart on PURE WHITE background. Critical visual contract: handwritten lettering and gently imperfect pen outlines only; all colored regions are FLAT SOLID UNIFORM pastel color, edge-to-edge inside boundaries. No paper texture, no watercolor, no gradients, no grain, no highlights, no gloss, no bright grid intersections, no white holes. Each matrix cell is a perfectly even solid pastel rectangle, dark thin grid lines above fill. Same type of cell same color. Semantic blanks allowed ONLY where explicitly specified, not random texture. Keep refined notebook character through handwriting, restrained colors, white space and fine ink. No illustration decorations.
+标题“大模型怎样逐个生成词元”。副标题“典型解码器模型·简化示意”。
+六个编号阶段，左侧留回线通道，中间机制展开，右侧简短旁注。
+①输入与分词：“解释一下引力”→t₁ t₂ … tₙ，旁注“分词仅作示意”。
+②向量表示：词元→小向量，标签“嵌入与位置信息”。不写具体位置编码公式。
+③Transformer层：最大区域“重复N层”。Q、K、V三个矩阵分别平涂浅蓝、浅绿、浅紫。注意力公式准确“softmax(QKᵀ/√dₖ+M)V”。一个因果掩码方格图：对角线和下三角所有格均匀浅蓝，上三角全部均匀浅灰，深色细网格，不能有高光白点。旁注“M：可见位置为0，未来位置为−∞”。注意力输出清楚连接“FFN：线性→激活→线性”，不是从V输入直接连FFN。注明“残差、归一化与多头投影省略”。旁边“每层KV缓存”，两行K/V均匀平涂格，后面追加橙色新格；标“复用历史，追加当前”，缓存是旁注模块，不是串行步骤。
+④下一词元概率：③输出的末位置表示→输出投影→Logits示意柱图→Softmax→概率示意柱图。柱子平涂无渐变，不写示例数值。
+⑤选择与追加：采样或贪心→新词元→追加到序列。
+⑥从追加到序列明确连入菱形“停止条件满足？”；是→结束，否→沿左侧回线返回②，标签“新词元进入下一轮”。
+右侧旁注“预填充：处理输入序列”“逐步解码：结合缓存继续预测”。底部“文本可增量显示；具体结构与停止规则依模型配置”。细节图表为示意，无作者署名。纯白背景，所有填色必须平整无白斑。
